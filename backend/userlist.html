@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ralewaywght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+
+    <link rel="stylesheet" href="style-backend.css">
+    <title>Motoforum.pl/Backend/Użytkownicy</title>
+</head>
+<body>
+    
+    <nav class="nav-top">   
+        <div class="brand">
+            <h1>Backend serwisu Motoforum.pl</h1>
+        </div>
+        <div class="nav-items">
+            <a href="../index.html">Strona GŁówna</a>
+            <a href="edycja_profilu.html" class="profile"><i class="ti ti-user"></i> <span>Użytkownik</span></a>
+            <a href="../login.html" class="login"><i class="ti ti-logout"></i> <span>Wyloguj</span></a>
+        </div>
+    </nav>
+    <div class="wrapper">
+    <div class="sidebar">
+        <nav class="nav-sidebar">
+            <div class="nav-items">
+            <a href="userlist.html"><i class="ti ti-chevron-right"></i> Użytkownicy</a>
+            <a href="postlist.html"><i class="ti ti-chevron-right"></i> Posty</a>
+            <a href="statystyki.html"><i class="ti ti-chevron-right"></i> Statystyki Strony</a>
+        </div>
+        </nav>
+    </div>
+    <main>
+        <h1>Użytkownicy</h1>
+        <div class="wrapper">
+            <div class="row">
+                <table class="orders">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nazwa Użytkownika</th>
+                        <th>Akcje</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Anna Piotrowicz</td>
+                        <td><a href="edycjauzytkownikow.html" class="btn btn-edit">Edit</a> <a href="usuwanieuzytkownikow.html" class="btn btn-delete">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Grzegorz Brzęczyszczykiewicz</td>
+                        <td><a href="edycjauzytkownikow.html" class="btn btn-edit">Edit</a> <a href="usuwanieuzytkownikow.html" class="btn btn-delete">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sławomir Borewicz</td>
+                        <td><a href="edycjauzytkownikow.html" class="btn btn-edit">Edit</a> <a href="usuwanieuzytkownikow.html" class="btn btn-delete">Delete</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Martyna Kowalewska</td>
+                        <td><a href="edycjauzytkownikow.html" class="btn btn-edit">Edit</a> <a href="usuwanieuzytkownikow.html" class="btn btn-delete">Delete</a></td>
+                    </tr>
+                </table>
+            </div>
+       
+        </div>
+    </main>
+</div>
+</body>
+</html>

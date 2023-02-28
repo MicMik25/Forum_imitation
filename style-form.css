@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-form input , .login-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 8px;
+}
+.login-form .btn{
+    max-width: 200px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 4px 8px;
+    border: 1px solid #fff;
+    background-color:#ffff;
+    border-radius: 8px;
+    color: black;
+    font-size: 16px;
+    display: inline;
+    text-align: center;
+
+}
+.login-form .btn:hover{
+    background-color: green;
+    color:#fff;
+}
+.login-box{
+    
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform:translate(-50%,-50%)
+}
+h1 span{
+    color:green;
+    text-transform: uppercase;
+}
